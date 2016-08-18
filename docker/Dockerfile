@@ -1,11 +1,4 @@
-From nvidia/cuda:7.5-devel
-
-ARG proxy=""
-ENV http_proxy $proxy
-ENV https_proxy $proxy
-ENV HTTP_PROXY $proxy
-ENV HTTPS_PROXY $proxy
-ENV DEBIAN_FRONTEND noninteractive
+FROM ubuntu:14.04
 
 RUN apt-get update
 RUN apt-get install -y python
