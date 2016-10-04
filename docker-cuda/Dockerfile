@@ -19,3 +19,4 @@ RUN pip install matplotlib
 RUN apt-get install -y libzmq-dev
 RUN pip install ipython
 RUN pip install jupyter
+RUN pip install cython
